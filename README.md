@@ -1,14 +1,9 @@
-
 # WELCOME TO MY LANDING PAGE
 <html>
 <body>
 
+<h2>Please submit the form to save your information in my database</h2>
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<h2>Please submit the form to save your information in my database</h2>
-		</div>
-	</div>
 	<div class="row">
 		<div class="col-md-12">
 <form action="/action_page.php">
@@ -25,4 +20,5 @@
 		</div>
 	</div>
 </div>
-
+</body>
+</html>
