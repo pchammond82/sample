@@ -1,10 +1,13 @@
-<form class="form-signin" method="POST" action="URL_OF_REST">
+<form class="form-signin" method="POST" action="https://pchammond82.github.io/sample/endpoint_example">
   <h2 class="form-signin-heading">Please sign in</h2>
   <input class="form-control" type="text" required name="email" placeholder="Email address">
   <input class="form-control" type="password" required name="password" placeholder="Password">
   <label class="checkbox"></label>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </form>
+
+
+
 
 # WELCOME TO MY LANDING PAGE
 <html>
