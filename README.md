@@ -52,7 +52,7 @@
 		//Whenever this request 
 		request.onreadystatechange = function(){
 		  //document.getElementById("result").innerText = request.responseText
-		  console.log('request.responseText',request.responseText);
+		  console.log('request',request);
 		}
         	
 		//Lets open a request and send the data
