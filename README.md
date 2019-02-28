@@ -58,11 +58,13 @@
 
 			//Whenever this request 
 			request.onreadystatechange = function(){
-			  if(request.readyState == 4 && request.status !== 404 && request.status !== 500){
-				okMsgContainer.innerText = "Thanks! The form was submitted successfully.";
-			  }else{
-				errorMsgContainer.innerText = "There was an error submitting the form :( Please try again later.";
-			  }
+				if(request.readyState == 4){
+					if(request.status !== 404 && request.status !== 500){
+						okMsgContainer.innerText = "Thanks! The form was submitted successfully.";
+					}else{
+						errorMsgContainer.innerText = "There was an error submitting the form :( Please try again later.";
+					}
+				}
 			}
 
 			//Lets open a request and send the data
