@@ -39,9 +39,9 @@
 		//let's save a reference to the form on a variable
 		var formElement = document.getElementById('form');
 		//let's save a reference to the success message container
-		var okMsgContainer = document.getElementById('success-msg-container');
+		var okMsgContainer = document.getElementById('success-container');
 		//let's save a reference to the error message container
-		var errorMsgContainer = document.getElementById('error-msg-container');
+		var errorMsgContainer = document.getElementById('error-container');
 
 		//Add an event listener whenever the form is submitted
 		formElement.addEventListener("submit", function(e){
