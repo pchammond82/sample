@@ -19,9 +19,9 @@
 		<div class="col-md-12">
 <form action="https://forms.hubspot.com/uploads/form/v2/2211982/406681a7-9be2-4477-909d-1daf6a76fe08" method="POST">
   First name:<br>
-  <input type="text" name="firstname"><br>
+  <input type="text" name="firstname" placeholder="First Name"><br>
   Last name:<br>
-  <input type="text" name="lastname"><br>
+  <input type="text" name="lastname" placeholder="Last Name"><br>
   Email:<br>
   <input type="email" name="email" placeholder="Your Email"><br>
   
