@@ -22,10 +22,9 @@
   <input type="text" name="firstname"><br>
   Last name:<br>
   <input type="text" name="lastname"><br>
-  Favorite color:<br>
-  <input type="radio" name="gender" value="Rojo" checked>Rojo<br>
-  <input type="radio" name="gender" value="Azul"> Azul<br>
-  <input type="radio" name="gender" value="Amarillo"> Amarillo<br>
+  Email:<br>
+  <input type="email" name="email" value="email"><br>
+  
   <input type="submit" value="Submit"> 
 </form>
 		</div>
