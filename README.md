@@ -23,7 +23,7 @@
   Last name:<br>
   <input type="text" name="lastname"><br>
   Email:<br>
-  <input type="email" name="email" value="email"><br>
+  <input type="email" name="email" placeholder="Your Email"><br>
   
   <input type="submit" value="Submit"> 
 </form>
